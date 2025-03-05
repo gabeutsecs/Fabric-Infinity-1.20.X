@@ -2,6 +2,8 @@ package net.mark.infinitymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mark.infinitymod.item.ModItemGroups;
+import net.mark.infinitymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +13,8 @@ public class InfinityMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+
 	}
 }
