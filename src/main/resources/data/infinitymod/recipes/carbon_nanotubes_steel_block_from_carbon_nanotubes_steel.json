@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitymod:carbon_nanotubes_steel"
+    }
+  },
+  "result": {
+    "item": "infinitymod:carbon_nanotubes_steel_block"
+  }
+}

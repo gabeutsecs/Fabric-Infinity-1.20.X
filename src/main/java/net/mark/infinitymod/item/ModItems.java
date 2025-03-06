@@ -13,10 +13,14 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item INFINITY_BLADE = registerItem("infinity_blade", new Item(new FabricItemSettings()));
     public static final Item MODERN_INFINITY_BLADE = registerItem("modern_infinity_blade", new Item(new FabricItemSettings()));
+    public static final Item CARBON_NANOTUBES_STEEL = registerItem("carbon_nanotubes_steel", new Item(new FabricItemSettings()));
+    public static final Item CARBON_NANOTUBE = registerItem("carbon_nanotube", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(INFINITY_BLADE);
         entries.add(MODERN_INFINITY_BLADE);
+        entries.add(CARBON_NANOTUBES_STEEL);
+        entries.add(CARBON_NANOTUBE);
     }
 
     private static Item registerItem(String name, Item item) {

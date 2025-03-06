@@ -1,6 +1,10 @@
 {
   "item.infinitymod.infinity_blade": "Infinity Blade",
   "item.infinitymod.modern_infinity_blade": "Modern Infinity Blade",
+  "item.infinitymod.carbon_nanotubes_steel": "Carbon Nanotubes Steel Ingot",
+  "item.infinitymod.carbon_nanotube": "Carbon Nanotube",
+
+  "block.infinitymod.carbon_nanotubes_steel_block": "Carbon Nanotubes Steel Block",
 
   "itemgroup.infinity": "Infinity Mod"
 }

@@ -2,6 +2,7 @@ package net.mark.infinitymod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.mark.infinitymod.InfinityMod;
+import net.mark.infinitymod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.INFINITY_BLADE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.INFINITY_BLADE);
                         entries.add(ModItems.MODERN_INFINITY_BLADE);
+                        entries.add(ModItems.CARBON_NANOTUBES_STEEL);
+                        entries.add(ModItems.CARBON_NANOTUBE);
+
+                        entries.add(ModBlocks.CARBON_NANOTUBES_STEEL_BLOCK);
 
 
                     }).build());
