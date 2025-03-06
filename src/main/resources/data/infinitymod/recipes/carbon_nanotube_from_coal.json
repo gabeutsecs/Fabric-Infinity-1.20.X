@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "carbon_nanotube",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "infinitymod:carbon_nanotube",
+    "count": 16
+  }
+}

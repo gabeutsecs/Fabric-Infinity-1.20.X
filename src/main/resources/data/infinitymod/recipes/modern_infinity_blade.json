@@ -3,19 +3,22 @@
   "category": "misc",
   "group": "carbon_nanotubes_steel",
   "pattern": [
-    "###",
-    "#X#",
-    "###"
+    "  C",
+    "CD ",
+    "#C "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:iron_ingot"
-    },
     "#": {
       "item": "infinitymod:carbon_nanotube"
+    },
+    "C": {
+      "item": "infinitymod:carbon_nanotubes_steel"
+    },
+    "D": {
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "infinitymod:carbon_nanotubes_steel"
+    "item": "infinitymod:modern_infinity_blade"
   }
 }

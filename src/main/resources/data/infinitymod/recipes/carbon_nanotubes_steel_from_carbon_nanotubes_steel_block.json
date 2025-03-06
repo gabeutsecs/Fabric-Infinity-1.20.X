@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
+  "group": "carbon_nanotubes_steel",
   "ingredients": [
     {
       "item": "infinitymod:carbon_nanotubes_steel_block"

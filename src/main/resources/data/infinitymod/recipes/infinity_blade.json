@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  C",
+    "XD ",
+    "#X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "infinitymod:carbon_nanotube"
+    },
+    "C": {
+      "item": "infinitymod:carbon_nanotubes_steel"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "infinitymod:infinity_blade"
+  }
+}
