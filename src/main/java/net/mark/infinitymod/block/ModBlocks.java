@@ -3,8 +3,11 @@ package net.mark.infinitymod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mark.infinitymod.InfinityMod;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -15,7 +18,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block CARBON_NANOTUBES_STEEL_BLOCK = registerBlock("carbon_nanotubes_steel_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.METAL)));
+            new Block(FabricBlockSettings.create().mapColor(MapColor.GOLD).instrument(Instrument.BELL).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL)
+
+		));
 
 
     private static Block registerBlock(String name, Block block) {

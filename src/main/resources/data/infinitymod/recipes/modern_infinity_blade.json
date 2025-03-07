@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "carbon_nanotubes_steel",
+  "category": "equipment",
   "pattern": [
     "  C",
     "CD ",
