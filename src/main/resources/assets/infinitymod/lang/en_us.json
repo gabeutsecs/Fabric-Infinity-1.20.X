@@ -1,8 +1,26 @@
 {
   "item.infinitymod.infinity_blade": "Infinity Blade",
   "item.infinitymod.modern_infinity_blade": "Modern Infinity Blade",
+
   "item.infinitymod.carbon_nanotubes_steel": "Carbon Nanotubes Steel Ingot",
   "item.infinitymod.carbon_nanotube": "Carbon Nanotube",
+
+  "item.infinitymod.sirises_helmet": "Helmet of Siris",
+  "item.infinitymod.sirises_chestplate": "Chestplate of Siris",
+  "item.infinitymod.sirises_leggins": "Leggins of Siris",
+  "item.infinitymod.sirises_boots": "Boots of Siris",
+
+  "item.infinitymod.ausars_helmet": "Helmet of Ausar",
+  "item.infinitymod.ausars_chestplate": "Chestplate of Ausar",
+  "item.infinitymod.ausars_leggins": "Leggins of Ausar",
+  "item.infinitymod.ausars_boots": "Boots of Ausar",
+
+  "item.infinitymod.raidriars_helmet": "Helmet of Raidriar",
+  "item.infinitymod.raidriars_chestplate": "Chestplate of Raidriar",
+  "item.infinitymod.raidriars_leggins": "Leggins of Raidriar",
+  "item.infinitymod.raidriars_boots": "Boots of Raidriar",
+
+
 
   "block.infinitymod.carbon_nanotubes_steel_block": "Carbon Nanotubes Steel Block",
 

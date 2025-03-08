@@ -19,6 +19,21 @@ public class ModItemGroups {
                         entries.add(ModItems.CARBON_NANOTUBES_STEEL);
                         entries.add(ModItems.CARBON_NANOTUBE);
 
+                        entries.add(ModItems.SIRISES_HELMET);
+                        entries.add(ModItems.SIRISES_CHESTPLATE);
+                        entries.add(ModItems.SIRISES_LEGGINS);
+                        entries.add(ModItems.SIRISES_BOOTS);
+
+                        entries.add(ModItems.AUSARS_HELMET);
+                        entries.add(ModItems.AUSARS_CHESTPLATE);
+                        entries.add(ModItems.AUSARS_LEGGINS);
+                        entries.add(ModItems.AUSARS_BOOTS);
+
+                        entries.add(ModItems.RAIDRIARS_HELMET);
+                        entries.add(ModItems.RAIDRIARS_CHESTPLATE);
+                        entries.add(ModItems.RAIDRIARS_LEGGINS);
+                        entries.add(ModItems.RAIDRIARS_BOOTS);
+
                         entries.add(ModBlocks.CARBON_NANOTUBES_STEEL_BLOCK);
 
 

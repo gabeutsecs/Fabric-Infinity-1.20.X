@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
   "group": "carbon_nanotubes_steel",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key": {
-    "X": {
+  "ingredients": [
+    {
+      "item": "infinitymod:carbon_nanotube"
+    },
+    {
+      "item": "infinitymod:carbon_nanotube"
+    },
+    {
+      "item": "infinitymod:carbon_nanotube"
+    },
+    {
+      "item": "infinitymod:carbon_nanotube"
+    },
+    {
       "item": "minecraft:iron_ingot"
     },
-    "#": {
-      "item": "infinitymod:carbon_nanotube"
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
     }
-  },
+  ],
   "result": {
     "item": "infinitymod:carbon_nanotubes_steel"
   }

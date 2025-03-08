@@ -18,9 +18,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block CARBON_NANOTUBES_STEEL_BLOCK = registerBlock("carbon_nanotubes_steel_block",
-            new Block(FabricBlockSettings.create().mapColor(MapColor.GOLD).instrument(Instrument.BELL).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL)
-
-		));
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.METAL)));
 
 
     private static Block registerBlock(String name, Block block) {
