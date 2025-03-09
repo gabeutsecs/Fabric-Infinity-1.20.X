@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "infinitymod:block/carbon_nanotubes_steel_block"
-  }
-}

@@ -21,30 +21,31 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item CARBON_NANOTUBE = registerItem("carbon_nanotube",
             new Item(new FabricItemSettings()));
+    //Carbon Nanotube Fiber for crafting
 
     public static final Item RAIDRIARS_HELMET = registerItem("raidriars_helmet",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RAIDRIARS_CHESTPLATE = registerItem("raidriars_chestplate",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item RAIDRIARS_LEGGINS = registerItem("raidriars_leggins",
+    public static final Item RAIDRIARS_LEGGINGS = registerItem("raidriars_leggings",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RAIDRIARS_BOOTS = registerItem("raidriars_boots",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item SIRISES_HELMET = registerItem("sirises_helmet",
-            new ArmorItem(ModArmorMaterials.SIRIUS, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SIRISES_CHESTPLATE = registerItem("sirises_chestplate",
-            new ArmorItem(ModArmorMaterials.SIRIUS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item SIRISES_LEGGINS = registerItem("sirises_leggins",
-            new ArmorItem(ModArmorMaterials.SIRIUS, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SIRISES_LEGGINGS = registerItem("sirises_leggings",
+            new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item SIRISES_BOOTS = registerItem("sirises_boots",
-            new ArmorItem(ModArmorMaterials.SIRIUS, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item AUSARS_HELMET = registerItem("ausars_helmet",
             new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item AUSARS_CHESTPLATE = registerItem("ausars_chestplate",
             new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item AUSARS_LEGGINS = registerItem("ausars_leggins",
+    public static final Item AUSARS_LEGGINGS = registerItem("ausars_leggings",
             new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item AUSARS_BOOTS = registerItem("ausars_boots",
             new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.BOOTS, new FabricItemSettings()));
