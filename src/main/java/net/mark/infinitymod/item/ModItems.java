@@ -21,7 +21,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item CARBON_NANOTUBE = registerItem("carbon_nanotube",
             new Item(new FabricItemSettings()));
-    //Carbon Nanotube Fiber for crafting
+    public static final Item CARBON_NANOTUBE_FIBER = registerItem("carbon_nanotube_fiber",
+            new Item(new FabricItemSettings()));
 
     public static final Item RAIDRIARS_HELMET = registerItem("raidriars_helmet",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.HELMET, new FabricItemSettings()));

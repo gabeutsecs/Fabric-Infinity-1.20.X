@@ -25,6 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MODERN_INFINITY_BLADE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CARBON_NANOTUBE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CARBON_NANOTUBES_STEEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARBON_NANOTUBE_FIBER, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AUSARS_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AUSARS_CHESTPLATE));

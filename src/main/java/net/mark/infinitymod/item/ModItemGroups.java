@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MODERN_INFINITY_BLADE);
                         entries.add(ModItems.CARBON_NANOTUBES_STEEL);
                         entries.add(ModItems.CARBON_NANOTUBE);
+                        entries.add(ModItems.CARBON_NANOTUBE_FIBER);
 
                         entries.add(ModItems.SIRISES_HELMET);
                         entries.add(ModItems.SIRISES_CHESTPLATE);
