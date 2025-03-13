@@ -18,7 +18,7 @@ public abstract class ItemRendererMixin {
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
     public BakedModel useInfinityBladeModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
         if (stack.isOf(ModItems.INFINITY_BLADE) && renderMode != ModelTransformationMode.GUI) {
-            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(InfinityMod.MOD_ID, "infinity_blade", "inventory"));
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(InfinityMod.MOD_ID, "infinity_blade_3d", "inventory"));
             // substitute infinity_blade for infinity_blade_3d when i get the texture working
         }
         return value;

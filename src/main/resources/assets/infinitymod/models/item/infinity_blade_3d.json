@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "infinitymod:item./infinity_blade_3d",
-		"particle": "infinitymod:item./infinity_blade_3d"
+		"0": "infinitymod:item/infinity_blade_3d",
+		"particle": "infinitymod:item/infinity_blade_3d"
 	},
 	"elements": [
 		{
@@ -978,7 +978,7 @@
 		"firstperson_righthand": {
 			"rotation": [14, -89, 2],
 			"translation": [-13, 3, 17],
-			"scale": [4, 4, 4]
+			"scale": [10, 10, 10]
 		},
 		"firstperson_lefthand": {
 			"rotation": [7, -81, -6],

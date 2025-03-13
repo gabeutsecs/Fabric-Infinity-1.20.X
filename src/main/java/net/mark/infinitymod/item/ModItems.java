@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mark.infinitymod.InfinityMod;
+import net.mark.infinitymod.item.custom.ModArmorItem;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -25,7 +26,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item RAIDRIARS_HELMET = registerItem("raidriars_helmet",
-            new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RAIDRIARS_CHESTPLATE = registerItem("raidriars_chestplate",
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RAIDRIARS_LEGGINGS = registerItem("raidriars_leggings",
@@ -34,7 +35,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RAIDRIAR, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item SIRISES_HELMET = registerItem("sirises_helmet",
-            new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SIRISES_CHESTPLATE = registerItem("sirises_chestplate",
             new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item SIRISES_LEGGINGS = registerItem("sirises_leggings",
@@ -43,7 +44,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.SIRIS, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item AUSARS_HELMET = registerItem("ausars_helmet",
-            new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item AUSARS_CHESTPLATE = registerItem("ausars_chestplate",
             new ArmorItem(ModArmorMaterials.AUSAR, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item AUSARS_LEGGINGS = registerItem("ausars_leggings",

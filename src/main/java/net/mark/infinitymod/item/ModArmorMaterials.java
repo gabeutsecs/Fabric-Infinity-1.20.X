@@ -13,11 +13,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
 
     SIRIS("siris", 25, new int[]{ 3, 8, 6, 3 }, 60,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 5f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL)),
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 1f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL)),
     AUSAR("ausar", 25, new int[]{ 3, 8, 6, 3 }, 60,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 5f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL)),
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 1f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL)),
     RAIDRIAR("raidriar", 25, new int[]{ 3, 8, 6, 3 }, 60,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 5f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL));
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 1f, () -> Ingredient.ofItems(ModItems.CARBON_NANOTUBES_STEEL));
 
 
 
